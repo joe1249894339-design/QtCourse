@@ -1,0 +1,35 @@
+********* Start testing of TestTextEditor *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+INFO   : TestTextEditor::initTestCase() entering
+PASS   : TestTextEditor::initTestCase()
+INFO   : TestTextEditor::documentIoUtf8() entering
+PASS   : TestTextEditor::documentIoUtf8()
+INFO   : TestTextEditor::documentIoBinary() entering
+PASS   : TestTextEditor::documentIoBinary()
+INFO   : TestTextEditor::documentIoMissing() entering
+PASS   : TestTextEditor::documentIoMissing()
+INFO   : TestTextEditor::openPathAndTitle() entering
+PASS   : TestTextEditor::openPathAndTitle()
+INFO   : TestTextEditor::openMissingPath() entering
+PASS   : TestTextEditor::openMissingPath()
+INFO   : TestTextEditor::saveAndModifiedTitle() entering
+PASS   : TestTextEditor::saveAndModifiedTitle()
+INFO   : TestTextEditor::actionEnableStates() entering
+PASS   : TestTextEditor::actionEnableStates()
+INFO   : TestTextEditor::menuActionStates() entering
+QINFO  : TestTextEditor::menuActionStates() after popup: selection= true cut= true
+PASS   : TestTextEditor::menuActionStates()
+INFO   : TestTextEditor::findWrapAndNotFound() entering
+PASS   : TestTextEditor::findWrapAndNotFound()
+INFO   : TestTextEditor::replaceCurrent() entering
+PASS   : TestTextEditor::replaceCurrent()
+INFO   : TestTextEditor::replaceAllAndUndo() entering
+PASS   : TestTextEditor::replaceAllAndUndo()
+INFO   : TestTextEditor::autoSaveNamedFile() entering
+PASS   : TestTextEditor::autoSaveNamedFile()
+INFO   : TestTextEditor::lineNumbers() entering
+PASS   : TestTextEditor::lineNumbers()
+INFO   : TestTextEditor::cleanupTestCase() entering
+PASS   : TestTextEditor::cleanupTestCase()
+Totals: 15 passed, 0 failed, 0 skipped, 0 blacklisted, 781ms
+********* Finished testing of TestTextEditor *********
